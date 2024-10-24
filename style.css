@@ -17,6 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     background: url('comming-soon.png'),#151729;
+    background-size: contain;
     /* box-shadow: 0 15px 30px rgba(0, 0, 0, .5); */
 }
 #container .content{
@@ -31,4 +32,12 @@ body{
     cursor: pointer;
     text-align: center;
     font-family: "Sixtyfour Convergence", sans-serif;
+}
+#container .content p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    line-height: 1em;
+    margin-top: 10px;
+    text-align: center;
 }
